@@ -11,9 +11,11 @@
 
 
 ## referencias
-- https://codingwitht.com/container-widget-in-flutter-2022/
+- https://themobilecoder.com/axis-alignment-columns-rows-flutter/
 
-https://medium.com/flutter-espa%C3%B1a/desaf%C3%ADos-con-flutter-container-38842d23e2b7
+https://medium.com/@davidbernalgonzalez/trabajando-con-flutter-layouts-row-column-68f4b701bada
+
+https://medium.host/@themaaz32/flutter-row-and-column-widgets-deep-dive-f262f1ce9a91
 
 
 ## videos
