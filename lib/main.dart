@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/sin_estado.dart';
+import 'package:myapp/el_container.dart';
 
 
 // Suggested code may be subject to a license. Learn more: ~LicenseLog:3788906046.
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Widget sin estado',
         theme: ThemeData(primarySwatch: Colors.blue),
-        home: const Inicio(),
+        home: const Elcontainer(),
     );
   }
 }
