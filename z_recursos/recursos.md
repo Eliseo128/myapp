@@ -1,5 +1,5 @@
 ## link
-- https://github.com/myvsparth/stateless_stateful.git
+- https://github.com/iamshaunjp/flutter-masterclass.git
 
 ## flutter oficial
 
@@ -7,18 +7,13 @@
 
 
 ## resultados
-color verde
-- ![alt text](image.png)
 
-- color rojo
-![alt text](image-1.png)
-
+![alt text](image-2.png)
 
 ## referencias
-- https://jpgotopo.medium.com/cap-6-diferencias-entre-statelesswidget-y-statefulwidget-b5187f864280
+- https://blog.logrocket.com/flutter-layouts-guide-margins-padding/
 
 
 ## videos
-https://youtu.be/4W8eN_6mO2E?si=sqWFtZCTdovlCl1W
+https://youtu.be/X47zIAGIJNE?si=OuCgj0QG1xQsGKe-
 -
-https://youtu.be/WOvj84xq_fc?si=aSeU4DJRkXjM25AJ
