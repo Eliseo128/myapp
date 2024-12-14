@@ -5,16 +5,40 @@ class MiCafePreferido extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(children: [
+    return Column(children: [
       Row(children: [
-        Text('Fortaleza cafe negro: '),
-        Text('3'),
-        SizedBox(width: 50),
+        const Text('Fortaleza cafe negro: '),
+        const Text('3'),
+        Image.asset(
+          'andati.png',
+          height: 100,
+          width: 100,
+          colorBlendMode: BlendMode.multiply,
+          color: Colors.brown[100],
+        ),
+        const SizedBox(width: 50),
       ]),
       Row(children: [
-        Text('Azucar: '),
-        Text('3'),
-        SizedBox(width: 50),
+        const Text('Azucar: '),
+        const Text('3'),
+        Image.asset(
+          'azucar.jpg',
+          width: 100,
+          colorBlendMode: BlendMode.multiply,
+          color: Colors.brown[100],
+        ),
+        const SizedBox(width: 50),
+      ]),
+      Row(children: [
+        const Text('Huela a Cafee Marta: '),
+        const Text('3       '),
+        Image.asset(
+          'cafe-coffee.gif',
+          width: 100,
+          colorBlendMode: BlendMode.multiply,
+          color: Colors.brown[100],
+        ),
+        const SizedBox(width: 50),
       ]),
     ]);
   }

@@ -19,9 +19,9 @@ class Home extends StatelessWidget {
         body: Column(crossAxisAlignment: CrossAxisAlignment.center, children: [
           Container(
             width: 200,
-            height: 100,
+            height: 30,
             color: Colors.amberAccent,
-            padding: const EdgeInsets.all(20),
+            padding: const EdgeInsets.all(5),
             child: const Text('Mi Cafe de Oxxo...'),
           ),
           Container(
