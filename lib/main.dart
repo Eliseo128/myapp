@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         title: 'Rutas 1 Nava',
         theme: ThemeData(primarySwatch: Colors.blue),
         home: const Home(),
-        // initialRoute: "/",
+        initialRoute: "/",
         routes: <String, WidgetBuilder>{
           "/SegundaPagina": (BuildContext context) => const SegundaPagina()
         } // las rutas

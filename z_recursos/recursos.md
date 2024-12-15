@@ -1,24 +1,28 @@
-## link
-- https://github.com/iamshaunjp/flutter-masterclass.git
+## Navigate with named routes
+- en el nevegador busca 
+- esflutter routes
 
 ## flutter oficial
 
-- https://api.flutter.dev/flutter/material/Divider-class.html
+[- https://api.flutter.dev/flutter/material/Divider-class.html](https://docs.flutter.dev/ui/widgets/interaction)
 
 
 ## resultados
+pagina inicial
 ![alt text](image.png)
-
+segunda pagina
+![alt text](image-1.png)
 
 ## referencias
-- https://themobilecoder.com/axis-alignment-columns-rows-flutter/
+- https://medium.com/flutter/learning-flutters-new-navigation-and-routing-system-7c9068155ade
 
-https://medium.com/@davidbernalgonzalez/trabajando-con-flutter-layouts-row-column-68f4b701bada
+- https://medium.com/@lakshithlfvithana/a-comprehensive-guide-to-flutters-routing-system-navigating-your-way-with-ease-f8a69df1b2a8
 
-https://medium.host/@themaaz32/flutter-row-and-column-widgets-deep-dive-f262f1ce9a91
+- https://blog.devgenius.io/layouts-in-flutter-c65b0dc6b356
 
+- https://www.dhiwise.com/post/deep-dive-into-flutter-routing-everything-you-need-to-know
 
 ## videos
-https://youtu.be/tH9McCLvcBc?si=YlShI8L53HoaTey4
--
-- ![alt text](image.png)
+https://youtu.be/DyESSzpjG4Q?si=QY37EWSLQRlnoHti
+
+https://youtu.be/C6nTXjQFVKI?si=oneCfBkb-EWdjLfU
