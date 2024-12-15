@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/home.dart';
+import 'package:myapp/segunda_pagina.dart';
 
-
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:3788906046.
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
@@ -12,9 +11,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Widget sin estado',
+        title: 'Rutas 1 Nava',
         theme: ThemeData(primarySwatch: Colors.blue),
         home: const Home(),
-    );
-  }
-}
+        // initialRoute: "/",
+        routes: <String, WidgetBuilder>{
+          "/SegundaPagina": (BuildContext context) => const SegundaPagina()
+        } // las rutas
+        );
+  } // widget
+}// clase MyApp
