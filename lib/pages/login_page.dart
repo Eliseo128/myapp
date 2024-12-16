@@ -1,9 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/utils/routes.dart';
 
-class LoginPage extends StatelessWidget {
+class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
 
+  @override
+  State<LoginPage> createState() => _LoginPageState();
+}
+
+class _LoginPageState extends State<LoginPage> {
+  String nombre = "";
+  bool cambioBoton = false;
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -38,6 +45,10 @@ class LoginPage extends StatelessWidget {
                         hintText: "Ingresa Nombre de usuario",
                         labelText: "Nombre de usuario",
                       ),
+                      onChanged: (value) {
+                        nombre = value;
+                        setState(() {});
+                      },
                     ),
                     TextFormField(
                       obscureText: true,
@@ -49,16 +60,50 @@ class LoginPage extends StatelessWidget {
                     const SizedBox(
                       height: 40.0,
                     ),
-                    ElevatedButton(
-                      style: TextButton.styleFrom(
-                          backgroundColor: Colors.purple,
-                          foregroundColor: Colors.white,
-                          minimumSize: const Size(150, 40)),
-                      onPressed: () {
+                    // animacion asincrona
+                    InkWell(
+                      onTap: () async {
+                        setState(() {
+                          cambioBoton = true;
+                        });
+                        await Future.delayed(const Duration(seconds: 1));
+                        // ignore: use_build_context_synchronously
                         Navigator.pushNamed(context, MyRoutes.homeRoute);
                       },
-                      child: const Text("Acceder"),
-                    )
+                      child: AnimatedContainer(
+                        duration: const Duration(seconds: 1),
+                        width: cambioBoton ? 50 : 150,
+                        height: 50,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: Colors.deepPurple,
+                          borderRadius:
+                              BorderRadius.circular(cambioBoton ? 50 : 8),
+                        ),
+                        child: cambioBoton
+                            ? const Icon(
+                                Icons.done,
+                                color: Colors.white,
+                              )
+                            : const Text(
+                                "Acceder..",
+                                style: TextStyle(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 18),
+                              ),
+                      ),
+                    ),
+                    // ElevatedButton(
+                    //   style: TextButton.styleFrom(
+                    //       backgroundColor: Colors.purple,
+                    //       foregroundColor: Colors.white,
+                    //       minimumSize: const Size(150, 40)),
+                    //   onPressed: () {
+                    //     Navigator.pushNamed(context, MyRoutes.homeRoute);
+                    //   },
+                    //   child: const Text("Acceder"),
+                    // )
                   ],
                 ),
               )

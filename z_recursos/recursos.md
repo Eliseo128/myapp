@@ -1,11 +1,11 @@
 ## Entrada de texto textinput
 - en el nevegador busca 
-- ejemplos de DateTime flutter medium
-
+- es flutter AnimatedContainer
+github https://github.com/iampawan/30DaysOfFlutter/blob/day6/lib/pages/home_page.dart
 ## flutter oficial
 
 
-[- DateTime Formatting in Flutter medium](https://api.flutter.dev/flutter/dart-core/DateTime-class.html)
+[- AnimatedContainer class](https://api.flutter.dev/flutter/widgets/AnimatedContainer-class.html)
 
 
 ## resultados
@@ -27,12 +27,9 @@ login
 [- New Material buttons in Flutter](https://blog.logrocket.com/new-material-buttons-in-flutter/)
 
 ## videos
+https://youtu.be/tF36qXam8Ok?si=xbMdC8sq2K8aNS3D
 
-https://youtu.be/CSl2Yu2l-hc?si=eec2gQooNA9az9az
+https://youtu.be/kWIrhqhCVBk?si=2ZBA1u6ZXZern3H3
 
-https://youtu.be/1Gd6QYxkk0A?si=CXizxsGEzuyl1NTo
+https://youtu.be/yI-8QHpGIP4?si=QChxoNGO_5PVztPf
 
-https://youtu.be/1Gd6QYxkk0A?si=K4VzZrTGXqBBslk-
-
-
-https://youtu.be/cJnUYrXBiw4?si=dlTZBd6fzYuH86lZ
