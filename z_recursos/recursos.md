@@ -1,35 +1,38 @@
 ## Entrada de texto textinput
 - en el nevegador busca 
-- esflutter InputDecoration
+- ejemplos de DateTime flutter medium
 
 ## flutter oficial
 
-https://api.flutter.dev/flutter/material/InputDecoration-class.html
 
-https://api.flutter.dev/flutter/material/TextField-class.html
+[- DateTime Formatting in Flutter medium](https://api.flutter.dev/flutter/dart-core/DateTime-class.html)
 
 
 ## resultados
 pagina inicial
 ![alt text](image.png)
-Escribiendo Text
+login
 ![alt text](image-1.png)
 
 
+
 ## referencias
-[- Ejemplos de inputext medium](https://medium.com/@paghadalsneh/a-visual-guide-to-input-decorations-for-flutter-textfield-6f805d1991b7)
+[- DateTime Formatting in Flutter medium](https://medium.com/@sparkleo/mastering-datetime-formatting-in-flutter-2-techniques-2632afae62c4)
 
-- https://blog.logrocket.com/the-ultimate-guide-to-text-fields-in-flutter/
+[- The official package](https://pub.dev/)
 
-https://www.naukri.com/code360/library/flutter-textfield
+[- DateTime in Flutter with the intl Package medium](https://blog.stackademic.com/datetime-in-flutter-with-the-intl-package-4123eb926e4a)
 
+[- Flutter ElevatedButton Example Tutorial](https://codesinsider.com/flutter-elevatedbutton-example/)
+[- New Material buttons in Flutter](https://blog.logrocket.com/new-material-buttons-in-flutter/)
 
 ## videos
 
-https://youtu.be/BpN5f_747pI?si=N1_lmeYqVZicUXLZ
+https://youtu.be/CSl2Yu2l-hc?si=eec2gQooNA9az9az
 
-TextFormField in flutter
-https://youtu.be/i0ugxbSZVzI?si=1Ff1BO-NFqNeI4FC
+https://youtu.be/1Gd6QYxkk0A?si=CXizxsGEzuyl1NTo
+
+https://youtu.be/1Gd6QYxkk0A?si=K4VzZrTGXqBBslk-
 
 
-https://youtu.be/vhB5c_gqpMg?si=HXyEwbXQb77TQl3b
+https://youtu.be/cJnUYrXBiw4?si=dlTZBd6fzYuH86lZ
